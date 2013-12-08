@@ -2,9 +2,10 @@
 <p align="center">для конкатинации и минификации css и js файлов проекта</p>
 
 <p align="center">
-  <a href="https://github.com/uran1980/web-dev-blog/blob/master/README.md">
+  <a target="_blank" href="http://gruntjs.com/getting-started">
     <img  style="max-width:100%;"
           alt="Gruntjs"
+          height="200px"
           src="https://1.gravatar.com/avatar/801a04ad77406f5ba958a607f2b27880?d=https%3A%2F%2Fidenticons.github.com%2F4e4819fe606f4444e784c9db7413ec4e.png&r=x&s=400" />
   </a>
 </p>
