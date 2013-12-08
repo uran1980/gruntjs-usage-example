@@ -61,7 +61,7 @@ module.exports = function(grunt) {
                 compress: true,
                 preserveComments: false,
                 beautify: false,
-                mangle: false                                                   // вкл./выкл. замены имен переменных на короткие названия
+                mangle: false           // вкл./выкл. замены имен переменных на короткие названия
             },
             my_target: {
                 files: {
