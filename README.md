@@ -12,6 +12,12 @@
 
 ###Интсрукция по использованию:
 * Установить **[Nodejs](http://nodejs.org/)**
+* Устаановить nodejs-модуль **Grunt-cli**
+
+```
+npm install -g grunt-cli
+```
+
 * Скопировать в корень проекта файлы **[package.json](https://github.com/uran1980/gruntjs-usage-example/blob/master/package.json)** и **[Gruntfile.js](https://github.com/uran1980/gruntjs-usage-example/blob/master/Gruntfile.js)** из текущего репозитария
 * Из корня проекта выполнить команду:
 
