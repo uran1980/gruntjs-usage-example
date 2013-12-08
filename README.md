@@ -12,7 +12,7 @@
 
 ###Интсрукция по использованию:
 * Установить **[Nodejs](http://nodejs.org/)**
-* Устаановить nodejs-модуль **Grunt-cli**
+* Устаановить nodejs-модуль **grunt-cli**
 
 ```
 npm install -g grunt-cli
