@@ -24,7 +24,7 @@ npm install -g grunt-cli
 ```
 npm install
 ```
-данная команда установить все необходимые для работы nodejs-модули прописанные в файле **[package.json](https://github.com/uran1980/gruntjs-usage-example/blob/master/package.json)**
+данная команда создаст в корне проекта каталог ```node_modules``` и установит в него все необходимые для работы nodejs-модули прописанные в файле **[package.json](https://github.com/uran1980/gruntjs-usage-example/blob/master/package.json)**.
 * Открыть файл **[Grunfile.js](https://github.com/uran1980/gruntjs-usage-example/blob/master/Gruntfile.js)** и прописать нужные пути к js и css файлам вашего проекта
 * Из корня проекта выполнить команду:
 
