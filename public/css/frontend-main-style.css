@@ -1,0 +1,278 @@
+#main-wrap h1 {
+  font-size: 28px;
+  color: #558ABF;
+  text-shadow: 1px 1px 1px #DDDDDD;
+  text-transform: uppercase;
+}
+#main-wrap h2 {
+  color: #43673F;
+}
+
+#index-one,
+#index-two {
+  color: #007E26;
+  font-size: 36px;
+  font-weight: bold;
+  float: left;
+  margin: 0px 0px 0px 20px;
+}
+
+.index-coll-text {
+  height: 90px;
+  margin-left: 60px;
+}
+.index-coll-text p {
+  color: #6A7884;
+  font-weight: bold;
+}
+.index-coll-text p strong {
+  color: #333;
+}
+
+a#register-link,
+a#login-link {
+  display: block;
+  height: 97px;
+  position: relative;
+  text-decoration: none;
+}
+a#register-link span,
+a#login-link span {
+  color: #eee;
+  cursor: hand;
+  cursor: pointer;
+  display: block;
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 25px;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #4e4e4e;
+  width: 270px;
+}
+a#register-link span:hover,
+a#login-link span:hover {
+  color: #fff;
+}
+
+a#register-link {
+  background: transparent url("../images/frontend/button-register-new.png") top left;
+}
+
+a#login-link {
+  background: transparent url("../images/frontend/button-login-new.png") top left;
+}
+
+a#login-link span {
+  left: 150px;
+  width: 240px;
+}
+
+.frontend-greeting-title,
+.frontend-greeting-text {
+  padding: 0 20px;
+}
+
+.frontend-greeting-text {
+  color: #666;
+}
+
+.left-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.left-menu ul li a {
+  background: #ededed;
+  border: 1px solid #ccd5dd;
+  outline: 1px solid #ccd5dd;
+  color: #6c6c6c;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 4px;
+  outline: 0;
+  padding: 7px 0;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+}
+.left-menu ul li a.selected {
+  background: #d9d9d9;
+}
+.left-menu ul li a:hover {
+  background: #5A7A98;
+  border: 1px solid #5A7A98;
+  outline: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px #1D3A55;
+}
+
+#contacts-page-content .contacts-block-wrap {
+  margin: 15px 65px;
+}
+#contacts-page-content .contacts-block-wrap img {
+  border: 1px solid #89949F;
+}
+#contacts-page-content .contacts-block {
+  padding-left: 220px;
+}
+#contacts-page-content .contacts-block h3 {
+  margin: 0px;
+  color: #9CBA60;
+  text-transform: uppercase;
+}
+#contacts-page-content .contacts-label {
+  width: 170px;
+  float: left;
+}
+#contacts-page-content .contacts-label p {
+  font-weight: bold;
+}
+#contacts-page-content .contacts-descr {
+  width: 400px;
+  float: left;
+}
+#contacts-page-content .contacts-label p, #contacts-page-content .contacts-descr p {
+  color: #6A788A;
+  margin: 0px;
+  padding: 0px;
+}
+
+#accordion a:hover {
+  color: #0099ea;
+}
+#accordion table {
+  background: none !important;
+}
+#accordion td, #accordion th, #accordion caption {
+  padding: 0 0 5px 5px;
+}
+#accordion .ui-accordion-content.ui-corner-bottom {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#accordion.ui-accordion .ui-state-default, #accordion.ui-accordion .ui-widget-content .ui-state-default, #accordion.ui-accordion .ui-widget-header .ui-state-default {
+  background: url("../images/frontend/accordion/accordion-unactive-title-bg.gif") repeat-x scroll 50% 50% #e6e6e6 !important;
+  border: 1px solid #CCD5DD;
+  color: #555555;
+  font-weight: normal;
+}
+#accordion.ui-accordion .ui-accordion-header.ui-state-active {
+  background: url("../images/frontend/accordion/accordion-active-title-bg.gif") repeat-x scroll 50% 50% #e6e6e6 !important;
+  border: 1px solid #CCD5DD;
+  border-bottom: 2px solid #CCD5DD;
+}
+#accordion.ui-accordion .ui-accordion-content {
+  background: url("../images/frontend/accordion/accordion-grad.jpg") repeat-x bottom white !important;
+}
+
+#accordion-wrapper {
+  background-color: #f0f3f5;
+  height: 260px;
+}
+#accordion-wrapper h4 {
+  color: #1675a4;
+  font-weight: bold;
+  font-size: 140%;
+  margin: 0;
+}
+#accordion-wrapper h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+#accordion-wrapper .ui-accordion-header.ui-corner-top {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#accordion-wrapper .ui-accordion-header.ui-corner-all {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+#accordion-wrapper .ui-accordion-content.ui-accordion-content-active {
+  border: 1px solid #CCD5DD;
+  border-top: none;
+}
+#accordion-wrapper .ui-accordion-content-active div {
+  height: 200px;
+  overflow: auto;
+}
+
+.ui-accordion .ui-accordion-content {
+  border-top: 0 none;
+  display: none;
+  margin-bottom: 2px;
+  margin-top: -2px;
+  overflow: auto;
+  padding: 0 1em !important;
+  position: relative;
+  top: 1px;
+}
+
+#fastform-wrapper {
+  min-height: 300px;
+  background-color: #f3f5f7;
+  border: 1px solid #ccd5dd;
+}
+#fastform-wrapper form {
+  margin: 0px 20px;
+}
+#fastform-wrapper .title h3 {
+  color: #758898;
+  float: left;
+  font-size: 125%;
+  font-weight: bold;
+  margin: 10px 0 10px 55px;
+  padding: 14px 20px 13px 0;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#recovery-form-wrap,
+#suppurt-form-wrap {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+#register-form-wrap form p {
+  margin-bottom: 1.5em;
+}
+
+#register-form-wrap form label {
+  margin-top: 0.5em;
+}
+
+#new-client-wrap,
+#existing-client-wrap {
+  background: white url("../images/frontend/box-bg.jpg") left top repeat-x;
+  border: 1px solid #ccd5dd;
+  /* #a9baca;*/
+  padding: 20px;
+}
+
+#new-client-wrap.opacity-80,
+#existing-client-wrap.opacity-80 {
+  opacity: 1 !important;
+  filter: alpha(opacity=100);
+}
+
+#register-form-container p,
+#login-form-container p,
+#suppurt-form-wrap p {
+  margin-bottom: 0;
+}
