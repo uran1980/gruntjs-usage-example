@@ -11,8 +11,8 @@
 </p>
 
 ###Интсрукция по использованию:
-* Установить **[Nodejs](http://nodejs.org/)**.
-* Установить nodejs-модуль **grunt-cli**:
+* Установить на локальном компьютере **[Nodejs](http://nodejs.org/)**.
+* Установить тамже nodejs-модуль **grunt-cli**:
 
 ```
 npm install -g grunt-cli
